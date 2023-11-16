@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Pet sitting and pet care website</title>
+    <link rel="stylesheet" href="project.css">
+    <script src="book.js">
+    </script>
+    </head>
+    <body>
+        
+        <section class="sub-header">
+            <nav>
+                <div class="nav-link">
+                    <ul>
+                        <li><a href="html.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="service.html">SERVICES</a></li>
+                        <li><a href="form.html">BOOK NOW</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-------- new --------------------------->
+ <h1>BOOK NOW</h1>
+ </section>
+ <section class="contact-us">
+    <div class="contact">
+        <form action="" id="form" onsubmit="booked(event)">
+            <h3 class="one">Book For Your Pet</h3>
+            <label for="name">Name</label><br>
+            <input type="text" class="name" placeholder="Enter Your Name" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" class="email" placeholder="Enter Your Email" required><br>
+            <label for="phone">Phone Number</label><br>
+            <input type="text" class="number" placeholder="Enter Your Phone Number" required><br>
+            <label for="services">Services</label><br>
+            <select name="select">
+                <option disabled selected value>Select Service</option>
+                <option>Pet Sitting</option>
+                <option>Veterinary Assistant</option>
+                <option>Dog Walking</option>
+                <option>Dog Training</option>
+            </select><br>
+            <label for="date">Coming Date</label><br>
+            <input type="date" class="date" placeholder="dd/mm/yyyy"><br>
+            <label for="Suggestion">Suggestion</label><br>
+            <textarea class="message" rows="4" placeholder="Enter your Suggestion"></textarea><br>
+            <button type="submit" class="submit" id="booked" onclick="booked()">submit</button>
+        </form>
+    </div>
+ </section>
+ <section class="about-us">
+    <div class="row">
+       <div class="about-row"></div>
+    </div>
+ </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Most professional pet sitters are insured through pet sitter insurance providers.<br> counselors or pet therapists, have varying levels of knowledge and experience.<br>Animals are such agreeable friends. They ask no questions; they pass no criticisms</p>
+        <p>.</p>
+    </section>
+    
+    </body>
+</html>
